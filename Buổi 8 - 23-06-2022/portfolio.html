@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* background-color -> đổi màu nền
+            color -> đổi màu chữ
+            width -> thay dổi chiều rộng
+            height -> thay đổi chiều cao
+            text-decoration: underline -> gạch chân
+            font-style: italic -> in nghiêng
+            font-size -> điều chỉnh kích thước chữ
+            font-family -> điều chỉnh font chữ
+            text-align: center -> căn giữa text
+            border -> tạo đường viền cho element
+            border-radius -> bo góc element */
+        body {
+            background-color: darkslategrey;
+            color: #FFFFFF;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            font-size: 44px;
+        }
+
+        h2 {
+            background-color: red;
+            width: 50%;
+            height: 50px;
+            text-decoration: underline;
+            font-style: italic;
+            text-align: center;
+        }
+
+        img {
+            /* border-width: 15px;
+            border-style: dashed;
+            border-color: brown; */
+            border: 15px dashed brown;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- headings: h1, h2, h3, h4, h5, h6 -->
+    <h1>Lam Duc Long's Porfolio</h1> 
+
+    <!-- My Photo -->
+    <h2>My Photo</h2>
+    <!-- img: display image -->
+    <img src="./Profile Picture.jpg" alt="This is my profile picture" height="400">
+
+    <!-- br: break -->
+    <br>
+
+    <!-- General Information -->
+    <h2>General Information</h2>
+    <h3>Name</h3>
+    <!-- p: paragraph -->
+    <p>Lâm Đức Long</p>
+    <h3>Age</h3>
+    <p>18</p>
+    <h3>Gender</h3>
+    <p>Male</p>
+    <h3>Job</h3>
+    <p>Instructor</p>
+    <h3>Date of birth</h3>
+    <p>10/10/2004</p>
+    <h3>Phone number</h3>
+    <p>0987654321</p>
+    <h3>Address</h3>
+    <p>123 Hoa Binh</p>
+    <h3>Github link</h3>
+    <!-- a: anchor -->
+    <!-- href: hyperlink reference -->
+    <a href="https://github.com/longlamduc" target="_blank">This is my github link</a>
+    
+    <br><br>
+
+    <!-- Favorite Musics -->
+    <h2>Favorite Musics</h2>
+    <!-- ol: ordered list -->
+    <ol>
+        <!-- list item -->
+        <li>Baby Shark
+            <audio src="./audio/y2mate.com - Baby Shark Dance  babyshark Most Viewed Video  Animal Songs  PINKFONG Songs for Children.mp3" controls></audio>
+        </li>
+        <li>Anh nhà ở đâu thế
+            <audio src="./audio/y2mate.com - AMEE x B RAY  ANH NHÀ Ở ĐÂU THẾ  Official Music Video.mp3" controls></audio>
+        </li>
+        <li>Vì mẹ anh bắt chia tay
+            <audio src="./audio/y2mate.com - VÌ MẸ ANH BẮT CHIA TAY  MIU LÊ x KARIK x CHÂU ĐĂNG KHOA  Official MV.mp3" controls></audio>
+        </li>
+    </ol>
+
+    <br>
+
+    <!-- Hobbies -->
+    <h2>Hobbies</h2>
+    <!-- ul: unordered list -->
+    <ul>
+        <li>Reading Book</li>
+        <li>Swimming</li>
+        <li>Gaming</li>
+    </ul>
+
+    <br>
+
+    <!-- Favorite Tourist Destination -->
+    <h2>Favorite Tourist Destination</h2>
+    <ul>
+        <li>Ha Long Bay <br>
+            <video src="./video/Toàn cảnh vịnh hạ long, ha long bay (flycam).mp4" controls width="500"></video>
+        </li>
+        <li>Cau Rong <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mlCPkiMFq1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </li>
+    </ul>
+</body>
+</html>
